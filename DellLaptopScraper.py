@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+from itertools import cycle
 import requests
 
 # What do I want to do?
@@ -8,27 +9,47 @@ print("Start of the program")
 
 # TODO This link is for laptops sorted from low to high, shouldnt matter though
 
+# URL = """
+# https://www.dell.com/en-ca/search/laptop?sb=pricing.saleprice,asc&p=1&t=Product&r=37654
+# """
 URL = """
-https://www.dell.com/en-ca/search/laptop?sb=pricing.saleprice,asc&p=1&t=Product&r=37654
+https://www.dell.com/en-ca/search/laptop?r=37654,37789&p=1&ac=facetselect&t=Product
 """
-proxy = '124.156.219.100:80'
-header = {
-    'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"}
+
+# proxy = '124.156.219.100:80'
+# header = {
+#     'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"}
+
+
+user_agents = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36",
+    # Add more user agents here
+]
+
+user_agent_cycle = cycle(user_agents)
+
+
+headers = {
+    "User-Agent": next(user_agent_cycle)
+}
+page = requests.get(URL, headers=headers)
+page_html = page.text
+# print(page.status_code)
+print(page.status_code)
+print(page.headers)
 
 # Gets the response code
 # page = requests.get(URL, proxies={'http': proxy, 'https': proxy}, timeout=3)
-page = requests.get(URL, headers=header, timeout=3)
-page_html = page.text  # Gets the HTML content of the page
-print(page.status_code)
+# page = requests.get(URL, headers=header, timeout=3)
+# page_html = page.text  # Gets the HTML content of the page
+# print(page.status_code)
+
 # TODO Trees or smthn is going on here, LEARN MORE ABT THIS
-# TODO Could have also used filehandle: with open(URL) as f: soup = BS(f, 'html.parser')
-# Parses the HTML content into a BeautifulSoup object`  `
+# Parses the HTML content into a BeautifulSoup object
 soup = BeautifulSoup(page_html, "html.parser")
 
-# Doing soup.find("head") is same as doing soup.head
-# Gets the price of all the laptops, gets two of each for now
-
-# TODO Make this better, there has to be some way of doing x.y.z etc or smthn. This seems too crude
 # # Gets the range of what results qare beiung shown on the current page
 # result_range = soup.find(class_="pageinfo")
 # # Gets the number of results that are being shown on teh current page
