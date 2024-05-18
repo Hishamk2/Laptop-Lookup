@@ -213,8 +213,8 @@ with open("DellHTML(2).html", encoding='utf-8') as fp:
 
 all_laptops = get_all_laptop_info(soup)
 
-# with open("DellHTML(23).json", "w") as f:
-#     json.dump(all_laptops, f, indent=4)
+with open("DellHTML(2).json", "w") as f:
+    json.dump(all_laptops, f, indent=4)
 
 path = extract_suffix(URL)
 headers = [

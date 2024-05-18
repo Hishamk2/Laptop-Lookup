@@ -12,18 +12,6 @@ import json
 # TODO learn to implement classes
 # TODO esp so I can use the remove_extra_stuff function in this file
 
-with open("AcerHTML(106).html", encoding='utf-8') as fp:
-    soup = BeautifulSoup(fp, 'html.parser')
-
-laptop_names = []
-laptop_links = []
-laptop_prices = []
-laptop_processor = []
-laptop_ram = []
-laptop_storage = []
-laptop_gpu = []
-
-all_laptop_info_html = soup.findAll(class_="item product product-item")
 
     
 def prints(list):
@@ -155,11 +143,11 @@ def remove_extra_stuff(price):
             price = price.replace(char, "")
     return price
 
-def merge_lists(links, names, prices, processors, rams, gpus, storages):
+def merge_lists(links, names, prices, processors, rams, gpus, storages, old_prices, sale_types):
     laptop = {}
     all_laptops = {}
     for i in range(0, len(links)):
-        laptop = {'Link' : links[i], 'Name' : names[i], 'Price' : prices[i], 'Processor' : processors[i], 'GPU' : gpus[i], 'RAM' : rams[i], 'Storage' : storages[i]}
+        laptop = {'Link' : links[i], 'Name' : names[i], 'Sale Type' : sale_types[i],'Old Price' : old_prices[i],'Price' : prices[i], 'Processor' : processors[i], 'GPU' : gpus[i], 'RAM' : rams[i], 'Storage' : storages[i]}
         all_laptops[i] = laptop
     return all_laptops
 
@@ -184,6 +172,36 @@ def get_laptop_GPU(laptop_html):
         return laptop_info[gpu_index]
 
 
+def get_laptop_sale_type(laptop_html):
+    sale_type = laptop_html.find(class_="sales-label promotion-sales-label")
+    if sale_type == None:
+        return "Not on sale"
+    else:
+        return sale_type.text.strip()
+
+def get_laptop_old_price(laptop_html):
+    price_html = laptop_html.find(class_='price-wrapper', attrs={'data-price-type' : 'oldPrice'})
+    if price_html == None:
+        return 'Not on sale'
+    else:
+        price = remove_extra_stuff(price_html.text.strip())
+        return price
+
+
+with open("AcerHTML(106).html", encoding='utf-8') as fp:
+    soup = BeautifulSoup(fp, 'html.parser')
+
+laptop_names = []
+laptop_links = []
+laptop_prices = []
+laptop_processor = []
+laptop_ram = []
+laptop_storage = []
+laptop_gpu = []
+laptop_old_prices = []
+laptop_sale_type = []
+
+all_laptop_info_html = soup.findAll(class_="item product product-item")
 
 
 for laptop in all_laptop_info_html:
@@ -195,8 +213,10 @@ for laptop in all_laptop_info_html:
     laptop_storage.append(get_laptop_storage(laptop))
     laptop_prices.append(remove_extra_stuff(get_laptop_price(laptop)))
     laptop_gpu.append(get_laptop_GPU(laptop))
+    laptop_old_prices.append(get_laptop_old_price(laptop))
+    laptop_sale_type.append(get_laptop_sale_type(laptop))
 
-all_laptops = merge_lists(laptop_links, laptop_names, laptop_prices, laptop_processor, laptop_ram, laptop_gpu, laptop_storage)
+all_laptops = merge_lists(laptop_links, laptop_names, laptop_prices, laptop_processor, laptop_ram, laptop_gpu, laptop_storage, laptop_old_prices, laptop_sale_type)
 print(all_laptops)
 
 with open("AcerHTML(103).json", "w") as f:
