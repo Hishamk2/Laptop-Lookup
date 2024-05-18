@@ -1,0 +1,956 @@
+{
+    "0": {
+        "Link": "https://store.acer.com/en-ca/acer-chromebook-311-cb311-9h-c6qw",
+        "Name": "Acer Chromebook 311 - CB311-9H-C6QW",
+        "Price": "199.99",
+        "Processor": "Intel\u00ae Celeron\u00ae N4020 processor",
+        "GPU": "Intel\u00ae UHD Graphics 600",
+        "RAM": "4 GB standard memory",
+        "Storage": "32 GB Flash storage; SD Card reader"
+    },
+    "1": {
+        "Link": "https://store.acer.com/en-ca/aspire-1-laptop-a115-32-c7zw",
+        "Name": "Aspire 1 Laptop - A115-32-C7ZW",
+        "Price": "299.99",
+        "Processor": "Intel\u00ae Celeron\u00ae N4500 processor Dual-core 1.10 GHz",
+        "GPU": "Intel\u00ae UHD Graphics shared memory",
+        "RAM": "4 GB, DDR4 SDRAM",
+        "Storage": "64 GB Flash Memory"
+    },
+    "2": {
+        "Link": "https://store.acer.com/en-ca/acer-chromebook-315-cb315-3h-c7lj",
+        "Name": "Acer Chromebook 315 - CB315-3H-C7LJ",
+        "Price": "349.99",
+        "Processor": "Intel\u00ae Celeron\u00ae N4020 processor",
+        "GPU": "Intel\u00ae UHD Graphics 600",
+        "RAM": "8 GB standard memory",
+        "Storage": "64 GB Flash memory"
+    },
+    "3": {
+        "Link": "https://store.acer.com/en-ca/acer-chromebook-314-c933t-c613",
+        "Name": "Acer Chromebook 314 - C933T-C613",
+        "Price": "349.99",
+        "Processor": "Intel\u00ae Celeron\u00ae N4120 processor Quad-core 1.10 GHz",
+        "GPU": "Intel\u00ae UHD Graphics 600 shared memory",
+        "RAM": "4 GB, LPDDR4",
+        "Storage": "32 GB Flash Memory"
+    },
+    "4": {
+        "Link": "https://store.acer.com/en-ca/aspire-go-15-laptop-ag15-31p-c99t",
+        "Name": "Aspire Go 15 Laptop - AG15-31P-C99T",
+        "Price": "399.99",
+        "Processor": "Intel\u00ae N100 processor Quad-core",
+        "GPU": "Intel\u00ae UHD Graphics shared memory",
+        "RAM": "4 GB LPDDR5",
+        "Storage": "128 GB SSD"
+    },
+    "5": {
+        "Link": "https://store.acer.com/en-ca/acer-chromebook-314-c922-k5em",
+        "Name": "Acer Chromebook 314 - C922-K5EM",
+        "Price": "479.99",
+        "Processor": "MediaTek M8183C chipset with Cortex A73 + Cortex A53 2 GHz processors",
+        "GPU": "MediaTek Mali-G72 MP3 graphics shared memory",
+        "RAM": "4 GB standard memory",
+        "Storage": "32 GB Flash Storage"
+    },
+    "6": {
+        "Link": "https://store.acer.com/en-ca/acer-chromebook-512-c851t-c6b2",
+        "Name": "Acer Chromebook 512 - C851T-C6B2",
+        "Price": "489.99",
+        "Processor": "Intel\u00ae Celeron\u00ae N4020 processor with integrated Wi-Fi 5",
+        "GPU": "Intel UHD Graphics 600",
+        "RAM": "4 GB standard memory",
+        "Storage": "32 GB Flash storage"
+    },
+    "7": {
+        "Link": "https://store.acer.com/en-ca/acer-chromebook-712-c871t-c14r",
+        "Name": "Acer Chromebook 712 - C871T-C14R",
+        "Price": "489.99",
+        "Processor": "Intel\u00ae Celeron\u00ae 5205U processor Dual-core 1.90 GHz",
+        "GPU": "Intel UHD Graphics",
+        "RAM": "4 GB standard memory",
+        "Storage": "32 GB Flash storage"
+    },
+    "8": {
+        "Link": "https://store.acer.com/en-ca/acer-aspire-3-laptop-a315-23-r786",
+        "Name": "Acer Aspire 3 Laptop  A315-23-R786",
+        "Price": "499.99",
+        "Processor": "AMD Ryzen\u2122 3 3250U processor",
+        "GPU": "N/A",
+        "RAM": "4 GB DDR4 Memory",
+        "Storage": "512 GB"
+    },
+    "9": {
+        "Link": "https://store.acer.com/en-ca/aspire-3-laptop-a315-59-32x9",
+        "Name": "Aspire 3 Laptop - A315-59-32X9",
+        "Price": "499.99",
+        "Processor": "Intel\u00ae Core\u2122 i3-1215U processor Hexa-core 1.20 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics shared memory",
+        "RAM": "8 GB, DDR4 SDRAM",
+        "Storage": "256 GB SSD"
+    },
+    "10": {
+        "Link": "https://store.acer.com/en-ca/acer-chromebook-plus-515-cb515-2h-31ny",
+        "Name": "Acer Chromebook Plus 515 - CB515-2H-31NY",
+        "Price": "549.99",
+        "Processor": "12th Generation Intel\u00ae Core\u2122 i3 6-Core Processor; 1.2GHz with Intel\u00ae  Turbo  Boost Technology 2.0",
+        "GPU": "Intel\u00ae UHD Graphics",
+        "RAM": "8GB LPDDR5X Onboard Memory",
+        "Storage": "128GB Universal Flash Onboard Storage"
+    },
+    "11": {
+        "Link": "https://store.acer.com/en-ca/aspire-go-15-laptop-ag15-31p-c6fc",
+        "Name": "Aspire Go 15 Laptop - AG15-31P-C6FC",
+        "Price": "549.99",
+        "Processor": "Intel\u00ae N100 processor Quad-core",
+        "GPU": "Intel\u00ae UHD Graphics shared memory",
+        "RAM": "8 GB LPDDR5",
+        "Storage": "512 GB SSD"
+    },
+    "12": {
+        "Link": "https://store.acer.com/en-ca/aspire-3-laptop-a314-23p-r0jk",
+        "Name": "Aspire 3 Laptop - A314-23P-R0JK",
+        "Price": "549.99",
+        "Processor": "AMD Ryzen\u2122 5 7520U processor Quad-core 2.80 GHz",
+        "GPU": "AMD Radeon\u2122 Graphics shared memory",
+        "RAM": "8 GB, LPDDR5",
+        "Storage": "256 GB SSD"
+    },
+    "13": {
+        "Link": "https://store.acer.com/en-ca/acer-chromebook-plus-514-cb514-3h-r6g5",
+        "Name": "Acer Chromebook Plus 514 - CB514-3H-R6G5",
+        "Price": "549.99",
+        "Processor": "AMD Ryzen\u2122 3 7320C processor Quad-core 2.40 GHz",
+        "GPU": "AMD Radeon\u2122 Graphics shared memory",
+        "RAM": "8 GB, LPDDR5X",
+        "Storage": "128 GB SSD"
+    },
+    "14": {
+        "Link": "https://store.acer.com/en-ca/swift-3-laptop-sf314-511-593q",
+        "Name": "Swift 3 Laptop - SF314-511-593Q",
+        "Price": "599.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1135G7 processor Quad-core 2.40 GHz",
+        "GPU": "Intel\u00ae Iris Xe Max Graphics shared memory",
+        "RAM": "8 GB, LPDDR4X",
+        "Storage": "512 GB SSD"
+    },
+    "15": {
+        "Link": "https://store.acer.com/en-ca/aspire-3-laptop-a317-53-591m",
+        "Name": "Aspire 3 Laptop - A317-53-591M",
+        "Price": "599.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1135G7 processor Quad-core 2.40 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics shared memory",
+        "RAM": "8 GB, DDR4 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "16": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-57-597m",
+        "Name": "Aspire 5 Laptop - A515-57-597M",
+        "Price": "599.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1240P processor Dodeca-core 1.70 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics shared memory",
+        "RAM": "8 GB, DDR4 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "17": {
+        "Link": "https://store.acer.com/en-ca/acer-chromebook-plus-514-cb514-3ht-r8rb",
+        "Name": "Acer Chromebook Plus 514 - CB514-3HT-R8RB",
+        "Price": "599.99",
+        "Processor": "AMD Ryzen\u2122 3 7320C processor Quad-core 2.40 GHz",
+        "GPU": "AMD Radeon\u2122 Graphics shared memory",
+        "RAM": "8 GB, LPDDR5X",
+        "Storage": "128 GB SSD"
+    },
+    "18": {
+        "Link": "https://store.acer.com/en-ca/acer-chromebook-511-laptop-c741l-s40d",
+        "Name": "Acer Chromebook 511 Laptop - C741L-S40D",
+        "Price": "649.99",
+        "Processor": "Qualcomm Kryo 468 processor",
+        "GPU": "11.6\" IPS ComfyView 1366 x 768 display; Qualcomm Adreno 618 graphics",
+        "RAM": "4 GB standard memory; 32 GB Flash storage",
+        "Storage": "4 GB standard memory; 32 GB Flash storage"
+    },
+    "19": {
+        "Link": "https://store.acer.com/en-ca/aspire-3-laptop-a317-55p-31ca",
+        "Name": "Aspire 3 Laptop - A317-55P-31CA",
+        "Price": "649.99",
+        "Processor": "Intel\u00ae Core\u2122 i3-N305 processor Octa-core 1.80 GHz",
+        "GPU": "Intel\u00ae UHD Graphics shared memory",
+        "RAM": "8 GB, LPDDR5 memory",
+        "Storage": "512 GB Solid state drive"
+    },
+    "20": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-58m-37s4",
+        "Name": "Aspire 5 Laptop - A515-58M-37S4",
+        "Price": "649.99",
+        "Processor": "Intel\u00ae Core\u2122 i3-1315U processor Hexa-core 1.20 GHz",
+        "GPU": "Intel\u00ae UHD Graphics shared memory",
+        "RAM": "8 GB, LPDDR5",
+        "Storage": "512 GB SSD"
+    },
+    "21": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-58p-38em",
+        "Name": "Aspire 5 Laptop - A515-58P-38EM",
+        "Price": "699.99",
+        "Processor": "Intel\u00ae Core\u2122 i3-1315U processor Hexa-core 1.20 GHz",
+        "GPU": "Intel\u00ae UHD Graphics shared memory",
+        "RAM": "8 GB LPDDR5",
+        "Storage": "512 GB SSD"
+    },
+    "22": {
+        "Link": "https://store.acer.com/en-ca/aspire-vero-15-green-laptop-av15-52-59ap",
+        "Name": "Aspire Vero 15 Green Laptop - AV15-52-59AP",
+        "Price": "699.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1235U processor Deca-core 1.30 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics shared memory",
+        "RAM": "16 GB, DDR4 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "23": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-57-7869",
+        "Name": "Aspire 5 Laptop - A515-57-7869",
+        "Price": "749.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-1260P processor Dodeca-core 2.10 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics shared memory",
+        "RAM": "8 GB, DDR4 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "24": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-57-599a",
+        "Name": "Nitro 5 Gaming Laptop - AN515-57-599A",
+        "Price": "799.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-11400H processor Hexa-core 2.70 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 3050 with 4 GB dedicated memory",
+        "RAM": "8 GB, DDR4 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "25": {
+        "Link": "https://store.acer.com/en-ca/aspire-vero-15-green-laptop-av15-52-791n",
+        "Name": "Aspire Vero 15 Green Laptop - AV15-52-791N",
+        "Price": "799.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-1255U processor Deca-core 1.70 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics shared memory",
+        "RAM": "16 GB, DDR4 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "26": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-58p-58vf",
+        "Name": "Aspire 5 Laptop - A515-58P-58VF",
+        "Price": "799.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1335U processor Deca-core 1.30 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics shared memory",
+        "RAM": "8 GB LPDDR5",
+        "Storage": "512 GB SSD"
+    },
+    "27": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-45-r6kb",
+        "Name": "Aspire 5 Laptop - A515-45-R6KB",
+        "Price": "849.99",
+        "Processor": "AMD Ryzen\u2122 5 5500U processor Hexa-core 2.10 GHz",
+        "GPU": "AMD Radeon\u2122 Graphics shared memory",
+        "RAM": "8 GB, DDR4 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "28": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-47-r95l",
+        "Name": "Aspire 5 Laptop - A515-47-R95L",
+        "Price": "849.99",
+        "Processor": "AMD Ryzen\u2122 5 5625U processor Hexa-core 2.30 GHz",
+        "GPU": "AMD Radeon\u2122 Graphics shared memory",
+        "RAM": "8 GB, DDR4 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "29": {
+        "Link": "https://store.acer.com/en-ca/aspire-15-laptop-a15-41m-r2s6",
+        "Name": "Aspire 15 Laptop - A15-41M-R2S6",
+        "Price": "849.99",
+        "Processor": "AMD Ryzen\u2122 5 7535U processor Hexa-core 2.90 GHz",
+        "GPU": "AMD Radeon\u2122 Graphics shared memory",
+        "RAM": "8 GB DDR5 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "30": {
+        "Link": "https://store.acer.com/en-ca/aspire-15-laptop-a15-51p-56ny",
+        "Name": "Aspire 15 Laptop - A15-51P-56NY",
+        "Price": "849.99",
+        "Processor": "Intel\u00ae Core\u2122 5 120U processor Deca-core 1.40 GHz",
+        "GPU": "N/A",
+        "RAM": "8 GB LPDDR5",
+        "Storage": "512 GB SSD"
+    },
+    "31": {
+        "Link": "https://store.acer.com/en-ca/spin-3-laptop-sp314-55n-536k",
+        "Name": "Spin 3 Laptop - SP314-55N-536K",
+        "Price": "899.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1235U processor Deca-core 1.30 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics shared memory",
+        "RAM": "8 GB, LPDDR4X",
+        "Storage": "512 GB SSD"
+    },
+    "32": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a517-58m-52a1",
+        "Name": "Aspire 5 Laptop - A517-58M-52A1",
+        "Price": "899.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1335U processor Deca-core 1.30 GHz",
+        "GPU": "Iris Xe Graphics eligible",
+        "RAM": "16 GB LPDDR5 memory",
+        "Storage": "512 GB solid state drive"
+    },
+    "33": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-58-52lb",
+        "Name": "Nitro 5 Gaming Laptop - AN515-58-52LB",
+        "Price": "899.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-12450H processor",
+        "GPU": "NVIDIA\u00ae GeForce\u00ae RTX\u2122 3050 graphics",
+        "RAM": "8 GB standard memory; 512 GB Solid state drive",
+        "Storage": "8 GB standard memory; 512 GB Solid state drive"
+    },
+    "34": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-58m-56d0",
+        "Name": "Aspire 5 Laptop - A515-58M-56D0",
+        "Price": "899.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1335U processor Deca-core 1.30 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics",
+        "RAM": "8 GB LPDDR5 memory",
+        "Storage": "512 GB solid state drive"
+    },
+    "35": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-45-r8pf",
+        "Name": "Nitro 5 Gaming Laptop - AN515-45-R8PF",
+        "Price": "949.99",
+        "Processor": "AMD Ryzen\u2122 7 5800H processor Octa-core 3.20 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 3060 with 6 GB dedicated memory",
+        "RAM": "8 GB, DDR4 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "36": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-47-r0c5",
+        "Name": "Aspire 5 Laptop - A515-47-R0C5",
+        "Price": "949.99",
+        "Processor": "AMD Ryzen\u2122 5 5625U processor Hexa-core 2.30 GHz",
+        "GPU": "AMD Radeon\u2122 Graphics shared memory",
+        "RAM": "16 GB, DDR4 SDRAM",
+        "Storage": "512 GB solid state drive"
+    },
+    "37": {
+        "Link": "https://store.acer.com/en-ca/aspire-vero-14-laptop-av14-52p-55n4",
+        "Name": "Aspire Vero 14 Laptop - AV14-52P-55N4",
+        "Price": "949.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1335U processor Deca-core 1.30 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics eligible shared memory",
+        "RAM": "8 GB, LPDDR4X",
+        "Storage": "512 GB SSD"
+    },
+    "38": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-46-r6jq",
+        "Name": "Nitro 5 Gaming Laptop - AN515-46-R6JQ",
+        "Price": "999.99",
+        "Processor": "AMD Ryzen\u2122 7 6800H processor Octa-core 3.20 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 3060 with 6 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "39": {
+        "Link": "https://store.acer.com/en-ca/swift-go-14-laptop-sfg14-71-52tv",
+        "Name": "Swift Go 14 Laptop - SFG14-71-52TV",
+        "Price": "999.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1335U processor Dodeca-core 1.30 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics shared memory",
+        "RAM": "8 GB, LPDDR5",
+        "Storage": "512 GB SSD"
+    },
+    "40": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-58m-56bp",
+        "Name": "Aspire 5 Laptop - A515-58M-56BP",
+        "Price": "999.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1335U processor Deca-core 1.30 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics eligible",
+        "RAM": "16 GB LPDDR5 memory",
+        "Storage": "1 TB solid state drive"
+    },
+    "41": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-45-r8ea",
+        "Name": "Aspire 5 Laptop - A515-45-R8EA",
+        "Price": "999.99",
+        "Processor": "AMD Ryzen\u2122 7 5700U processor Octa-core 1.80 GHz",
+        "GPU": "N/A",
+        "RAM": "8 GB, DDR4 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "42": {
+        "Link": "https://store.acer.com/en-ca/swift-3-laptop-sf314-44-r74s",
+        "Name": "Swift 3 Laptop - SF314-44-R74S",
+        "Price": "999.99",
+        "Processor": "AMD Ryzen\u2122 5 5625U processor Hexa-core 2.30 GHz",
+        "GPU": "AMD Radeon\u2122 Graphics shared memory",
+        "RAM": "8 GB, LPDDR4X",
+        "Storage": "512 GB SSD"
+    },
+    "43": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-58-52e8",
+        "Name": "Nitro 5 Gaming Laptop - AN515-58-52E8",
+        "Price": "999.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-12500H processor",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4050 graphics",
+        "RAM": "8 GB standard memory",
+        "Storage": "512 GB solid state drive"
+    },
+    "44": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-57-74gd",
+        "Name": "Nitro 5 Gaming Laptop - AN515-57-74GD",
+        "Price": "999.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-11800H processor",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 3060 graphics",
+        "RAM": "16 GB standard memory",
+        "Storage": "512 GB solid state drive"
+    },
+    "45": {
+        "Link": "https://store.acer.com/en-ca/aspire-15-laptop-a15-41m-r9jg",
+        "Name": "Aspire 15 Laptop - A15-41M-R9JG",
+        "Price": "999.99",
+        "Processor": "AMD Ryzen\u2122 5 7535U processor Hexa-core 2.90 GHz",
+        "GPU": "AMD Radeon\u2122 Graphics shared memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "46": {
+        "Link": "https://store.acer.com/en-ca/acer-chromebook-spin-713-cp713-3w-58tg",
+        "Name": "Acer Chromebook Spin 713 - CP713-3W-58TG",
+        "Price": "999.99",
+        "Processor": "Intel\u00ae Core\u2122 i51135G7 processor",
+        "GPU": "Intel\u00ae Iris Xe Graphics",
+        "RAM": "8 GB standard memory",
+        "Storage": "256 GB solid state drive"
+    },
+    "47": {
+        "Link": "https://store.acer.com/en-ca/swift-3-laptop-sf314-43-r6bs",
+        "Name": "Swift 3 Laptop - SF314-43-R6BS",
+        "Price": "999.99",
+        "Processor": "AMD Ryzen\u2122 7 5700U processor Octa-core 1.80 GHz",
+        "GPU": "N/A",
+        "RAM": "8 GB, LPDDR4X",
+        "Storage": "512 GB SSD"
+    },
+    "48": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-58m-78hn",
+        "Name": "Aspire 5 Laptop - A515-58M-78HN",
+        "Price": "999.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-1355U processor Deca-core 1.70 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics shared memory",
+        "RAM": "16 GB, LPDDR5 memory",
+        "Storage": "1 TB solid state drive"
+    },
+    "49": {
+        "Link": "https://store.acer.com/en-ca/swift-go-16-laptop-sfg16-71-52sd",
+        "Name": "Swift Go 16 Laptop - SFG16-71-52SD",
+        "Price": "1,049.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1335U processor Deca-core 1.30 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics eligible shared memory",
+        "RAM": "8 GB, LPDDR5",
+        "Storage": "512 GB SSD"
+    },
+    "50": {
+        "Link": "https://store.acer.com/en-ca/swift-3-laptop-sf314-512-58a8",
+        "Name": "Swift 3 Laptop - SF314-512-58A8",
+        "Price": "1,099.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1240P processor Dodeca-core 1.70 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics",
+        "RAM": "8 GB standard memory",
+        "Storage": "512 GB solid state drive"
+    },
+    "51": {
+        "Link": "https://store.acer.com/en-ca/a517-58m-7732-ca",
+        "Name": "Aspire 5 Laptop - A517-58M-7732",
+        "Price": "1,099.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-1355U processor Deca-core 1.70 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics",
+        "RAM": "16 GB LPDDR5 memory",
+        "Storage": "1 TB solid state drive"
+    },
+    "52": {
+        "Link": "https://store.acer.com/en-ca/aspire-vero-16-laptop-av16-51p-5641",
+        "Name": "Aspire Vero 16 Laptop - AV16-51P-5641",
+        "Price": "1,099.99",
+        "Processor": "Intel\u00ae Core\u2122 Ultra 5 125U processor Dodeca-core",
+        "GPU": "N/A",
+        "RAM": "16 GB LPDDR5X",
+        "Storage": "512 GB SSD"
+    },
+    "53": {
+        "Link": "https://store.acer.com/en-ca/acer-chromebook-spin-714-cp714-2wn-59xx",
+        "Name": "Acer Chromebook Spin 714 - CP714-2WN-59XX",
+        "Price": "1,099.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-1335U processor Deca-core 1.30 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics shared memory",
+        "RAM": "8 GB LPDDR4X",
+        "Storage": "512 GB SSD"
+    },
+    "54": {
+        "Link": "https://store.acer.com/en-ca/aspire-15-laptop-a15-41m-r22w",
+        "Name": "Aspire 15 Laptop - A15-41M-R22W",
+        "Price": "1,099.99",
+        "Processor": "AMD Ryzen\u2122 7 7735U processor Octa-core 2.70 GHz",
+        "GPU": "AMD Radeon\u2122 Graphics shared memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "55": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-56-797q",
+        "Name": "Aspire 5 Laptop - A515-56-797Q",
+        "Price": "1,099.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-1165G7 processor Quad-core 2.80 GHz",
+        "GPU": "Intel\u00ae Iris Xe Graphics shared memory",
+        "RAM": "12 GB, DDR4 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "56": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-45-r9x1",
+        "Name": "Nitro 5 Gaming Laptop - AN515-45-R9X1",
+        "Price": "1,099.99",
+        "Processor": "AMD Ryzen\u2122 5 5600H processor Hexa-core 3.30 GHz",
+        "GPU": "NVIDIA\u00ae GeForce\u00ae GTX 1650 with 4 GB dedicated memory",
+        "RAM": "8 GB, DDR4 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "57": {
+        "Link": "https://store.acer.com/en-ca/spin-3-laptop-sp314-55n-72ce",
+        "Name": "Spin 3 Laptop - SP314-55N-72CE",
+        "Price": "1,099.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-1255U processor Deca-core 1.70 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics",
+        "RAM": "16 GB standard memory; microSD card reader",
+        "Storage": "1 TB solid state drive"
+    },
+    "58": {
+        "Link": "https://store.acer.com/en-ca/swift-go-14-laptop-sfg14-73-58ep",
+        "Name": "Swift Go 14 Laptop - SFG14-73-58EP",
+        "Price": "1,099.99",
+        "Processor": "Intel\u00ae Core\u2122 Ultra 5 125H processor Tetradeca-core",
+        "GPU": "Intel\u00ae Arc Graphics shared memory",
+        "RAM": "8 GB, LPDDR5",
+        "Storage": "512 GB SSD"
+    },
+    "59": {
+        "Link": "https://store.acer.com/en-ca/aspire-15-laptop-a15-51mt-50h1",
+        "Name": "Aspire 15 Laptop - A15-51MT-50H1",
+        "Price": "1,099.99",
+        "Processor": "Intel\u00ae Core\u2122 5 120U processor Deca-core 1.40 GHz",
+        "GPU": "Intel\u00ae graphics",
+        "RAM": "16 GB, LPDDR5",
+        "Storage": "1 TB SSD"
+    },
+    "60": {
+        "Link": "https://store.acer.com/en-ca/aspire-5-laptop-a515-47-r2ue",
+        "Name": "Aspire 5 Laptop - A515-47-R2UE",
+        "Price": "1,149.99",
+        "Processor": "AMD Ryzen 7 5825U Processor",
+        "GPU": "AMD Radeon\u2122 Graphics",
+        "RAM": "16 GB Standard memory",
+        "Storage": "1 TB Solid state drive"
+    },
+    "61": {
+        "Link": "https://store.acer.com/en-ca/aspire-vero-15-av15-53p-77v9",
+        "Name": "Aspire Vero 15 - AV15-53P-77V9",
+        "Price": "1,149.99",
+        "Processor": "Intel Core i7-1355U processor",
+        "GPU": "N/A",
+        "RAM": "16 GB standard memory",
+        "Storage": "512 GB solid state drive"
+    },
+    "62": {
+        "Link": "https://store.acer.com/en-ca/nitro-v-15-gaming-laptop-anv15-51-532j",
+        "Name": "Nitro V 15 Gaming Laptop - ANV15-51-532J",
+        "Price": "1,199.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-13420H processor Octa-core 2.10 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 3050 with 6 GB dedicated memory",
+        "RAM": "8 GB, DDR5 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "63": {
+        "Link": "https://store.acer.com/en-ca/aspire-15-laptop-a15-51m-75ec",
+        "Name": "Aspire 15 Laptop - A15-51M-75EC",
+        "Price": "1,199.99",
+        "Processor": "Intel\u00ae Core\u2122 7 150U processor Deca-core 1.80 GHz",
+        "GPU": "Intel\u00ae graphics",
+        "RAM": "16 GB LPDDR5",
+        "Storage": "1 TB SSD"
+    },
+    "64": {
+        "Link": "https://store.acer.com/en-ca/aspire-vero-14-laptop-av14-52p-77br",
+        "Name": "Aspire Vero 14 Laptop - AV14-52P-77BR",
+        "Price": "1,199.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-1355U processor Deca-core 1.70 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics eligible shared memory",
+        "RAM": "16 GB, LPDDR4X",
+        "Storage": "1 TB SSD"
+    },
+    "65": {
+        "Link": "https://store.acer.com/en-ca/nitro-16-gaming-laptop-an16-41-r6hk",
+        "Name": "Nitro 16 Gaming Laptop - AN16-41-R6HK",
+        "Price": "1,199.99",
+        "Processor": "AMD Ryzen 5 7535HS Hexa-Core Processor (Up to 4.55GHz)",
+        "GPU": "NVIDIA\u00ae  GeForce RTX 4050 Laptop GPU",
+        "RAM": "16GB standard memory",
+        "Storage": "512GB solid state drive"
+    },
+    "66": {
+        "Link": "https://store.acer.com/en-ca/swift-go-16-laptop-sfg16-72-5844",
+        "Name": "Swift Go 16 Laptop - SFG16-72-5844",
+        "Price": "1,199.99",
+        "Processor": "Intel\u00ae Core\u2122 Ultra 5 125H processor Tetradeca-core",
+        "GPU": "Intel\u00ae ARC Graphics shared memory",
+        "RAM": "8 GB LPDDR5",
+        "Storage": "512 GB SSD"
+    },
+    "67": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-47-r2a4",
+        "Name": "Nitro 5 Gaming Laptop - AN515-47-R2A4",
+        "Price": "1,199.99",
+        "Processor": "AMD Ryzen\u2122 5 7535HS processor Hexa-core 3.30 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 3050 with 4 GB dedicated memory",
+        "RAM": "8 GB, DDR5 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "68": {
+        "Link": "https://store.acer.com/en-ca/nitro-v-16-gaming-laptop-anv16-41-r2r4",
+        "Name": "Nitro V 16 Gaming Laptop - ANV16-41-R2R4",
+        "Price": "1,299.99",
+        "Processor": "AMD Ryzen\u2122 5 8645HS processor Hexa-core 4.30 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4050 with 6 GB dedicated memory",
+        "RAM": "8 GB, DDR5 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "69": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-58-7578",
+        "Name": "Nitro 5 Gaming Laptop - AN515-58-7578",
+        "Price": "1,299.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-12650H processor Deca-core 2.30 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4050 with 6 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "70": {
+        "Link": "https://store.acer.com/en-ca/swift-3-laptop-sf316-51-7070",
+        "Name": "Swift 3 Laptop - SF316-51-7070",
+        "Price": "1,299.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-11370H processor Quad-core 3.30 GHz",
+        "GPU": "Intel\u00ae Iris Xe Graphics shared memory",
+        "RAM": "16 GB, LPDDR4X",
+        "Storage": "512 GB SSD"
+    },
+    "71": {
+        "Link": "https://store.acer.com/en-ca/swift-3-laptop-sf314-44-r9ll",
+        "Name": "Swift 3 Laptop - SF314-44-R9LL",
+        "Price": "1,299.99",
+        "Processor": "AMD Ryzen\u2122 7 5825U processor Octa-core 2 GHz",
+        "GPU": "AMD Radeon\u2122 Graphics shared memory",
+        "RAM": "16 GB, LPDDR4X",
+        "Storage": "1 TB SSD"
+    },
+    "72": {
+        "Link": "https://store.acer.com/en-ca/swift-3-laptop-sf314-512-751b",
+        "Name": "Swift 3 Laptop - SF314-512-751B",
+        "Price": "1,299.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-1260P processor Dodeca-core 2.10 GHz",
+        "GPU": "Intel\u00ae Iris\u00ae Xe Graphics shared memory",
+        "RAM": "16 GB, LPDDR4X",
+        "Storage": "512 GB SSD"
+    },
+    "73": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-45-r4lc",
+        "Name": "Nitro 5 Gaming Laptop - AN515-45-R4LC",
+        "Price": "1,399.99",
+        "Processor": "AMD Ryzen\u2122 7 5800H processor Octa-core 3.20 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 3070 with 8 GB dedicated memory",
+        "RAM": "16 GB, DDR4 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "74": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-47-r33n",
+        "Name": "Nitro 5 Gaming Laptop - AN515-47-R33N",
+        "Price": "1,399.99",
+        "Processor": "AMD Ryzen\u2122 7 7735HS processor Octa-core 3.20 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 3050 with 4 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "75": {
+        "Link": "https://store.acer.com/en-ca/swift-go-14-laptop-sfg14-72t-71qf",
+        "Name": "Swift Go 14 Laptop - SFG14-72T-71QF",
+        "Price": "1,499.99",
+        "Processor": "Intel\u00ae Core\u2122 Ultra 7 155H Tetradeca-core",
+        "GPU": "Intel\u00ae ARC Graphics shared memory",
+        "RAM": "16 GB, LPDDR5X",
+        "Storage": "1 TB SSD"
+    },
+    "76": {
+        "Link": "https://store.acer.com/en-ca/swift-go-16-laptop-sfg16-72t-71ul",
+        "Name": "Swift Go 16 Laptop - SFG16-72T-71UL",
+        "Price": "1,499.99",
+        "Processor": "Intel\u00ae Core\u2122 Ultra 7 155H processor Tetradeca-core",
+        "GPU": "Intel\u00ae Arc Graphics shared memory",
+        "RAM": "16 GB, LPDDR5X",
+        "Storage": "1 TB SSD"
+    },
+    "77": {
+        "Link": "https://store.acer.com/en-ca/swift-x-14-laptop-sfx14-71g-5911",
+        "Name": "Swift X 14 Laptop - SFX14-71G-5911",
+        "Price": "1,499.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-13500H processor Dodeca-core 2.60 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 3050 with 6 GB dedicated memory",
+        "RAM": "16 GB, LPDDR5",
+        "Storage": "512 GB SSD"
+    },
+    "78": {
+        "Link": "https://store.acer.com/en-ca/nitro-16-gaming-laptop-an16-51-74bv",
+        "Name": "Nitro 16 Gaming Laptop - AN16-51-74BV",
+        "Price": "1,499.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-13700H processor Tetradeca-core 2.40 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4050 with 6 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "79": {
+        "Link": "https://store.acer.com/en-ca/nitro-v-15-gaming-laptop-anv15-51-717h",
+        "Name": "Nitro V 15 Gaming Laptop - ANV15-51-717H",
+        "Price": "1,599.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-13620H processor Deca-core 2.40 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4050 with 6 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "80": {
+        "Link": "https://store.acer.com/en-ca/nitro-v-15-gaming-laptop-anv15-51-75he",
+        "Name": "Nitro V 15 Gaming Laptop - ANV15-51-75HE",
+        "Price": "1,599.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-13620H processor Deca-core 2.40 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4050 with 6 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "81": {
+        "Link": "https://store.acer.com/en-ca/nitro-17-gaming-laptop-an17-72-56fs",
+        "Name": "Nitro 17 Gaming Laptop - AN17-72-56FS",
+        "Price": "1,699.99",
+        "Processor": "Intel\u00ae Core\u2122 i5-14450HX processor Deca-core 2.40 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4050 with 6 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "82": {
+        "Link": "https://store.acer.com/en-ca/nitro-17-gaming-laptop-an17-42-r61s",
+        "Name": "Nitro 17 Gaming Laptop - AN17-42-R61S",
+        "Price": "1,699.99",
+        "Processor": "AMD Ryzen\u2122 5 8645HS processor Hexa-core 4.30 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4050 with 6 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "83": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-58-78bt",
+        "Name": "Nitro 5 Gaming Laptop - AN515-58-78BT",
+        "Price": "1,799.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-12650H processor Deca-core 2.30 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4060 with 8 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "84": {
+        "Link": "https://store.acer.com/en-ca/predator-helios-16-gaming-laptop-ph16-71-71av",
+        "Name": "Predator Helios 16 Gaming Laptop - PH16-71-71AV",
+        "Price": "1,799.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-13700HX processor Hexadeca-core 2.10 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4060 with 8 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "85": {
+        "Link": "https://store.acer.com/en-ca/nitro-v-15-gaming-laptop-anv15-51-77dq",
+        "Name": "Nitro V 15 Gaming Laptop - ANV15-51-77DQ",
+        "Price": "1,799.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-13620H processor Deca-core 2.40 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4060 with 8 GB dedicated memory",
+        "RAM": "32 GB, DDR5 SDRAM",
+        "Storage": "512 GB SSD"
+    },
+    "86": {
+        "Link": "https://store.acer.com/en-ca/nitro-16-gaming-laptop-an16-41-r724",
+        "Name": "Nitro 16 Gaming laptop - AN16-41-R724",
+        "Price": "1,899.99",
+        "Processor": "AMD Ryzen\u2122 7 7735HS processor",
+        "GPU": "NVIDIA\u00ae GeForce RTX 4050 graphics",
+        "RAM": "8 GB standard memory",
+        "Storage": "1 TB solid state drive"
+    },
+    "87": {
+        "Link": "https://store.acer.com/en-ca/swift-x-14-laptop-sfx14-72g-77dz",
+        "Name": "Swift X 14 Laptop - SFX14-72G-77DZ",
+        "Price": "1,999.99",
+        "Processor": "Intel\u00ae Core\u2122 Ultra 7 155H processor Hexadeca-core",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4050 with 6 GB dedicated memory",
+        "RAM": "16 GB LPDDR5X",
+        "Storage": "512 GB SSD"
+    },
+    "88": {
+        "Link": "https://store.acer.com/en-ca/predator-helios-300-gaming-laptop-ph315-55-70k4",
+        "Name": "Predator Helios 300 Gaming Laptop - PH315-55-70K4",
+        "Price": "1,999.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-12700H processor Tetradeca-core 2.30 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 3070Ti with 8 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "89": {
+        "Link": "https://store.acer.com/en-ca/swift-x-14-laptop-sfx14-71g-76lc",
+        "Name": "Swift X 14  Laptop - SFX14-71G-76LC",
+        "Price": "1,999.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-13700H processor Tetradeca-core 2.40 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4050 with 6 GB dedicated memory",
+        "RAM": "16 GB, LPDDR5",
+        "Storage": "1 TB SSD"
+    },
+    "90": {
+        "Link": "https://store.acer.com/en-ca/nitro-16-gaming-laptop-an16-41-r1we",
+        "Name": "Nitro 16 Gaming Laptop - AN16-41-R1WE",
+        "Price": "1,999.99",
+        "Processor": "AMD RyzenTM 7 7840HS processor",
+        "GPU": "NVIDIA\u00ae  GeForce RTXTM 4060 Laptop GPU",
+        "RAM": "16 GB standard memory",
+        "Storage": "512 GB solid state drive"
+    },
+    "91": {
+        "Link": "https://store.acer.com/en-ca/nitro-16-gaming-laptop-an16-41-r7fa",
+        "Name": "Nitro 16 Gaming Laptop - AN16-41-R7FA",
+        "Price": "1,999.99",
+        "Processor": "AMD Ryzen\u2122 7 7735HS Processor",
+        "GPU": "NVIDIA\u00ae GeForce RTX 4070 Laptop GPU",
+        "RAM": "16 GB standard memory",
+        "Storage": "512 GB solid state drive"
+    },
+    "92": {
+        "Link": "https://store.acer.com/en-ca/predator-helios-neo-16-gaming-laptop-phn16-72-72hz",
+        "Name": "Predator Helios Neo 16 Gaming Laptop - PHN16-72-72HZ",
+        "Price": "2,099.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-14650HX processor Hexadeca-core",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4060 with 8 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "93": {
+        "Link": "https://store.acer.com/en-ca/predator-triton-neo-16-gaming-laptop-ptn16-51-74qk",
+        "Name": "Predator Triton Neo 16 Gaming Laptop - PTN16-51-74QK",
+        "Price": "2,199.99",
+        "Processor": "Intel\u00ae Core\u2122 Ultra 7 155H processor Hexadeca-core 1.40 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4050 with 6 GB dedicated memory",
+        "RAM": "16 GB, LPDDR5X",
+        "Storage": "1 TB SSD"
+    },
+    "94": {
+        "Link": "https://store.acer.com/en-ca/predator-helios-neo-18-gaming-laptop-phn18-71-71ng",
+        "Name": "Predator Helios Neo 18 Gaming Laptop - PHN18-71-71NG",
+        "Price": "2,299.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-14650HX processor Hexadeca-core 2.20 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4060 with 8 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "95": {
+        "Link": "https://store.acer.com/en-ca/predator-helios-16-gaming-laptop-ph16-71-98me",
+        "Name": "Predator Helios 16 Gaming Laptop - PH16-71-98ME",
+        "Price": "2,299.99",
+        "Processor": "Intel\u00ae Core\u2122 i9-13900HX processor",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4070 Laptop GPU",
+        "RAM": "16 GB standard memory",
+        "Storage": "1 TB SSD"
+    },
+    "96": {
+        "Link": "https://store.acer.com/en-ca/predator-triton-neo-16-gaming-laptop-ptn16-51-71dy",
+        "Name": "Predator Triton Neo 16 Gaming Laptop - PTN16-51-71DY",
+        "Price": "2,399.99",
+        "Processor": "Intel\u00ae Core\u2122 Ultra 7 155H processor Hexadeca-core",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4060 with 8 GB dedicated memory",
+        "RAM": "16 GB LPDDR5X",
+        "Storage": "1 TB SSD"
+    },
+    "97": {
+        "Link": "https://store.acer.com/en-ca/predator-helios-300-gaming-laptop-ph315-55-76bu",
+        "Name": "Predator Helios 300 Gaming Laptop - PH315-55-76BU",
+        "Price": "2,399.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-12700H processor Tetradeca-core 2.30 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 3060 with 6 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "98": {
+        "Link": "https://store.acer.com/en-ca/nitro-5-gaming-laptop-an515-58-74zs",
+        "Name": "Nitro 5 Gaming Laptop - AN515-58-74ZS",
+        "Price": "2,499.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-12700H processor Tetradeca-core 2.30 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 3070Ti with 8 GB dedicated memory",
+        "RAM": "16 GB, DDR4 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "99": {
+        "Link": "https://store.acer.com/en-ca/nitro-16-gaming-laptop-an16-41-r5kc",
+        "Name": "Nitro 16 Gaming Laptop - AN16-41-R5KC",
+        "Price": "2,499.99",
+        "Processor": "AMD Ryzen 9 7940HS Octa-Core Processor (Up to 5.2GHz)",
+        "GPU": "NVIDIA\u00ae  GeForce RTX 4070 Laptop GPU",
+        "RAM": "16 GB standard memory",
+        "Storage": "1 TB solid state drive"
+    },
+    "100": {
+        "Link": "https://store.acer.com/en-ca/predator-helios-neo-16-gaming-laptop-phn16-72-75nk",
+        "Name": "Predator Helios Neo 16 Gaming Laptop - PHN16-72-75NK",
+        "Price": "2,599.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-14700HX processor Icosa-core (20 Core\u2122) 2.10 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4070 with 8 GB dedicated memory",
+        "RAM": "32 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "101": {
+        "Link": "https://store.acer.com/en-ca/predator-helios-neo-18-gaming-laptop-phn18-71-77jt",
+        "Name": "Predator Helios Neo 18 Gaming Laptop - PHN18-71-77JT",
+        "Price": "2,699.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-14700HX processor Icosa-core (20 Core\u2122) 2.10 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4070 with 8 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "102": {
+        "Link": "https://store.acer.com/en-ca/predator-helios-16-gaming-laptop-ph16-72-77ka",
+        "Name": "Predator Helios 16 Gaming Laptop - PH16-72-77KA",
+        "Price": "2,799.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-14700HX processor Icosa-core (20 Core\u2122) 2.10 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4070 with 8 GB dedicated memory",
+        "RAM": "16 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "103": {
+        "Link": "https://store.acer.com/en-ca/predator-helios-neo-18-gaming-laptop-phn18-71-727b",
+        "Name": "Predator Helios Neo 18 Gaming Laptop - PHN18-71-727B",
+        "Price": "2,799.99",
+        "Processor": "Intel\u00ae Core\u2122 i7-14700HX processor Icosa-core (20 Core\u2122) 2.10 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4070 with 8 GB dedicated memory",
+        "RAM": "32 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "104": {
+        "Link": "https://store.acer.com/en-ca/predator-helios-neo-18-gaming-laptop-phn18-71-99rc",
+        "Name": "Predator Helios Neo 18 Gaming Laptop - PHN18-71-99RC",
+        "Price": "2,899.99",
+        "Processor": "Intel\u00ae Core\u2122 i9-14900HX processor Tetracosa-core (24 Core\u2122) 2.20 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4070 with 8 GB dedicated memory",
+        "RAM": "32 GB, DDR5 SDRAM",
+        "Storage": "1 TB SSD"
+    },
+    "105": {
+        "Link": "https://store.acer.com/en-ca/predator-helios-16-gaming-laptop-ph16-72-96vc",
+        "Name": "Predator Helios 16 Gaming Laptop - PH16-72-96VC",
+        "Price": "3,799.99",
+        "Processor": "Intel\u00ae Core\u2122 i9-14900HX processor Tetracosa-core (24 Core\u2122) 2.20 GHz",
+        "GPU": "NVIDIA\u00ae GeForce RTX\u2122 4080 with 12 GB dedicated memory",
+        "RAM": "32 GB, DDR5 SDRAM",
+        "Storage": "2 TB SSD"
+    }
+}

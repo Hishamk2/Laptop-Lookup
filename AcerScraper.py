@@ -1,14 +1,18 @@
+import time
+
+start_time = time.time()
+
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 import random
 import time
 import json
-import time
 
-start_time = time.time()
+# TODO learn to implement classes
+# TODO esp so I can use the remove_extra_stuff function in this file
 
-with open("AcerHTML(103).html", encoding='utf-8') as fp:
+with open("AcerHTML(106).html", encoding='utf-8') as fp:
     soup = BeautifulSoup(fp, 'html.parser')
 
 laptop_names = []
@@ -17,6 +21,7 @@ laptop_prices = []
 laptop_processor = []
 laptop_ram = []
 laptop_storage = []
+laptop_gpu = []
 
 all_laptop_info_html = soup.findAll(class_="item product product-item")
 
@@ -82,33 +87,139 @@ def get_laptop_ram(laptop_html):
     else:
         return laptop_info[ram_index]
 
+
+def just_gb(string_laptop_info):
+    no_numbers = ''
+    for char in string_laptop_info:
+        if not char.isdigit():
+            no_numbers += char
+    no_numbers = no_numbers.strip().lower()
+    if 'gb' == no_numbers:
+        return True
+    return False
+
+
+def find_laptop_storage_index(list):
+    # use above as reference
+    for index in range(0, len(list)):
+        if 'flash storage' in list[index]:
+            return index
+        elif 'flash memory' in list[index]:
+            return index
+        elif 'ssd' in list[index]:
+            return index
+        elif just_gb(list[index]):
+            return index
+        elif 'flash' in list[index] and 'storage' in list[index]:
+            return index
+        elif 'solid state drive' in list[index]:
+            return index
+        elif 'hard disk drive' in list[index]:
+            return index
+        elif 'hdd' in list[index]:
+            return index
+        
+        if (('flash storage' in list[index]) or 
+            ('flash memory' in list[index]) or 
+            ('ssd' in list[index]) or 
+            (just_gb(list[index])) or 
+            ('flash' in list[index] and 'storage' in list[index]) or 
+            ('solid state drive' in list[index]) or 
+            ('hard disk drive' in list[index]) or 
+            ('hdd' in list[index])):
+            return index
+
+    return -1
+        
+def get_laptop_storage(laptop_html):
+    laptop_info = laptop_html.find(class_='clearfix').text.strip().split('\n')
+    laptop_info_lower = convert_to_lowercase(laptop_info)
+    storage_index = find_laptop_storage_index(laptop_info_lower)
+    if storage_index == -1:
+        return "N/A"
+    else:
+        return laptop_info[storage_index]
+    
+# TODO fix this, doesnt work for discounted price
+def get_laptop_price(laptop_html):
+    price = laptop_html.find(class_='price-wrapper', attrs={'data-price-type' : 'finalPrice'}).text.strip()
+    return price
+
+
+def remove_extra_stuff(price):
+    # Remove the extra stuff from the price
+    # Extra stuff is anything that doesn't fit the format of a price
+    # Format of a a correct price is $1,234.56
+    for char in price:
+        if not char.isdigit() and char != "." and char != ",":
+            price = price.replace(char, "")
+    return price
+
+def merge_lists(links, names, prices, processors, rams, gpus, storages):
+    laptop = {}
+    all_laptops = {}
+    for i in range(0, len(links)):
+        laptop = {'Link' : links[i], 'Name' : names[i], 'Price' : prices[i], 'Processor' : processors[i], 'GPU' : gpus[i], 'RAM' : rams[i], 'Storage' : storages[i]}
+        all_laptops[i] = laptop
+    return all_laptops
+
+
+def find_laptop_gpu_index(list):
+    for index in range(0, len(list)):
+        if 'graphics' in list[index]:
+            return index
+        elif 'dedicated' in list[index] and 'memory' in list[index]:
+            return index
+        elif 'gpu' in list[index]:
+            return index
+    return -1
+
+def get_laptop_GPU(laptop_html):
+    laptop_info = laptop_html.find(class_='clearfix').text.strip().split('\n')
+    laptop_info_lower = convert_to_lowercase(laptop_info)
+    gpu_index = find_laptop_gpu_index(laptop_info_lower)
+    if gpu_index == -1:
+        return "N/A"
+    else:
+        return laptop_info[gpu_index]
+
+
+
+
 for laptop in all_laptop_info_html:
     laptop_name = laptop.find(class_="product name product-item-name")
     laptop_names.append(laptop_name.text.strip())
     laptop_links.append(laptop_name.find(class_='product-item-link').get('href'))
     laptop_processor.append(get_laptop_processor(laptop))
     laptop_ram.append(get_laptop_ram(laptop))
+    laptop_storage.append(get_laptop_storage(laptop))
+    laptop_prices.append(remove_extra_stuff(get_laptop_price(laptop)))
+    laptop_gpu.append(get_laptop_GPU(laptop))
 
-laptop = all_laptop_info_html[0]
-laptop_info = laptop.find(class_='clearfix').text.strip().split('\n')
-print('laptop_info',laptop_info)
-laptop_info_lower = convert_to_lowercase(laptop_info)
-print('laptop_info',laptop_info)
-print('laptop_info_lower',laptop_info_lower)
-print(find_laptop_processor_index(laptop_info_lower))
+all_laptops = merge_lists(laptop_links, laptop_names, laptop_prices, laptop_processor, laptop_ram, laptop_gpu, laptop_storage)
+print(all_laptops)
 
+with open("AcerHTML(103).json", "w") as f:
+    json.dump(all_laptops, f, indent=4)
 
-prints(laptop_links)
-prints(laptop_names)
-prints(laptop_processor)
-prints(laptop_ram)
+# laptop = all_laptop_info_html[0]
+# print(laptop.find(class_='price'))
+# print(remove_extra_stuff(laptop.find(class_='price').text))
+
+# TODO make a function that tells how many 'N/A' I got
+
+# prints(laptop_links)
+# prints(laptop_names)
+# prints(laptop_processor)
+# prints(laptop_ram)
 # prints(laptop_storage)
 # prints(laptop_prices)
 
 # print(len(laptop_links))
 # print(len(laptop_names))
 # print(len(laptop_processor))
-print(len(laptop_ram))
+# print(len(laptop_ram))
+# print(len(laptop_storage))
+# print(len(laptop_prices))
 
-print(time.time())
 print("\n\nProcess finished --- %s seconds ---" % (time.time() - start_time))

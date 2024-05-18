@@ -5,6 +5,10 @@ import random
 import time
 import json
 
+all_laptops_counter = 0
+all_laptops = {}
+# TODO maybe have the price and the currency
+
 print("Start of the program\n")
 
 def get_total_num_pages(total_num_results, num_results_per_page):
@@ -88,10 +92,10 @@ def get_laptop_ram(soup):
         laptop_ram.append(ram_text)
     return laptop_ram
 
-def merge_lists(names, prices, processors, rams, all_laptops):
+def merge_lists(sale_type, names, prices, processors, rams, links, GPUs, storage, sale, all_laptops):
     laptop = {}
     for i in range(0, len(names)):
-        laptop = {'Name' : names[i], 'Price' : prices[i], 'Processor' : processors[i], 'RAM' : rams[i]}
+        laptop = {'Link' : links[i], 'Name' : names[i], 'Original Price' : sale[i], 'Sale Type' : sale_type[i], 'Price' : prices[i], 'Processor' : processors[i], 'GPU:' : GPUs[i], 'RAM' : rams[i], 'Storage' : storage[i]}
         global all_laptops_counter
         all_laptops[all_laptops_counter] = laptop
         all_laptops_counter += 1
@@ -108,18 +112,95 @@ def extract_suffix(url):
         suffix += ';' + parsed_url.params
     return suffix
 
+def get_laptop_link(soup):
+    laptop_link = []
+    laptop_link_html = []
+    # fix, prob make it first find above class then this class etc
+    laptop_link_html = soup.findAll(class_="ps-show-hide-bottom")
+    for link in laptop_link_html:
+        x = link.find(class_="ps-button ps-button-system-details")
+        if x != None:
+            y = x.find(class_="ps-btn ps-blue")
+            link_text = y.get('href')
+            laptop_link.append(link_text)
+        else:
+            x = link.find(class_="ps-button ps-button-details")
+            y = x.find(class_="ps-btn ps-blue")
+            link_text = y.get('href')
+            laptop_link.append(link_text)
+    return laptop_link
+
+def get_laptop_GPU(soup):
+    laptop_GPU = []
+    laptop_GPU_html = []
+    laptop_GPU_html = soup.findAll(class_="ps-iconography-container ps-icon-specs-container")
+    for gpu in laptop_GPU_html:
+        GPU_one_above = gpu.find(class_="ps-iconography-icons video-card")
+        if GPU_one_above != None:
+            GPU_text = GPU_one_above.next_sibling.next_sibling.text.strip()
+            laptop_GPU.append(GPU_text)
+        else:
+            laptop_GPU.append("N/A")
+    return laptop_GPU
+
+def get_laptop_storage(soup):
+    laptop_storage = []
+    laptop_storage_html = []
+    laptop_storage_html = soup.findAll(class_="ps-iconography-container ps-icon-specs-container")
+    for storage in laptop_storage_html:
+        storage_text_one_above = storage.find(class_="ps-iconography-icons hard-drive")
+        if storage_text_one_above != None:
+            storage_text = storage_text_one_above.next_sibling.next_sibling.text.strip()
+            laptop_storage.append(storage_text)
+        else:
+            laptop_storage.append("N/A")
+    return laptop_storage
+
 def get_all_laptop_info(soup):
     laptop_names = get_laptop_names(soup)
     laptop_prices = get_laptop_prices(soup)
     laptop_processor = get_laptop_processor(soup)
     laptop_ram = get_laptop_ram(soup)
-
-    all_laptops = merge_lists(laptop_names, laptop_prices, laptop_processor, laptop_ram, all_laptops)
+    laptop_links = get_laptop_link(soup)
+    laptop_GPU = get_laptop_GPU(soup)
+    laptop_storage = get_laptop_storage(soup)
+    laptop_sale = get_original_price(soup)
+    laptop_sale_type = get_sale_type(soup)
+    global all_laptops
+    all_laptops = merge_lists(laptop_sale_type, laptop_names, laptop_prices, laptop_processor, laptop_ram, laptop_links, laptop_GPU, laptop_storage, laptop_sale, all_laptops)
     return all_laptops
 
 
-all_laptops_counter = 0
-all_laptops = {}
+def get_original_price(soup):
+    original_price = []
+    original_price_html = []
+    original_price_html = soup.findAll(class_='ps-pricing-container-without-promotions')
+    count = 0
+    for price in original_price_html:
+        if (count % 2 == 0):
+            x = price.find(class_='ps-orig ps-simplified')
+            if x != None:
+                y = x.find(class_='strike-through')
+                original_price_text = y.text.strip()
+                # original_price_text = remove_extra_stuff(original_price_text)
+                original_price.append(original_price_text)
+            else:
+                original_price.append("Not on sale")
+        count += 1
+    return original_price
+
+def get_sale_type(soup):
+    sale_type = []
+    sale_type_html = []
+    sale_type_html = soup.findAll(class_='ps-top')
+    for sale in sale_type_html:
+        x = sale.find(class_='ps-promo-text')
+        if x != None:
+            sale_text = x.text.strip()
+            sale_type.append(sale_text)
+        else:
+            sale_type.append("Not on sale")
+    return sale_type
 
 # URL = """
 # https://www.dell.com/en-ca/search/laptop?sb=pricing.saleprice,asc&p=1&t=Product&r=37654
@@ -127,13 +208,13 @@ all_laptops = {}
 i = 1
 URL = f'https://www.dell.com/en-ca/search/laptop?r=37654&p={i}&t=Product'
 
-with open("DellHTML(23).html", encoding='utf-8') as fp:
+with open("DellHTML(2).html", encoding='utf-8') as fp:
     soup = BeautifulSoup(fp, 'html.parser')
 
 all_laptops = get_all_laptop_info(soup)
 
-with open("DellHTML(23).json", "w") as f:
-    json.dump(all_laptops, f, indent=4)
+# with open("DellHTML(23).json", "w") as f:
+#     json.dump(all_laptops, f, indent=4)
 
 path = extract_suffix(URL)
 headers = [
@@ -216,9 +297,9 @@ headers = [
 
 
 for i in range(0, len(all_laptops)):
-    print(all_laptops[i])
+    print(all_laptops[i], "\n")
     
-
+# TODO prrob can make the program better by iterating through each div container containing each laptop like in the AcerScraper.py file
 print("\nEnd of the program")
 
 # i3 https://www.dell.com/en-ca/search/laptop?r=37654&p=1&ac=facetselect&t=Product
