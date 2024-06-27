@@ -1,0 +1,177 @@
+body {
+    background-color: #333333;
+    color: white;
+}
+
+.container {
+    max-width: 90%; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+.table {
+    background-color: #333333;
+    color: white;
+}
+
+.table th {
+    background-color: #444444;
+    color: white;
+    position: relative;
+}
+
+.table th span {
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.table th.asc span {
+    border-bottom: 5px solid white;
+}
+
+.table th.desc span {
+    border-top: 5px solid white;
+}
+
+.table td {
+    background-color: #333333;
+}
+
+.btn-custom {
+    background-color: #ff5050;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-custom:hover {
+    background-color: #ff7e7e;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.discount-type, .original-price {
+    font-style: italic;
+}
+
+.cpu {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+tbody tr.dell-laptop td {
+    background-color: #0672cb;
+}
+
+tbody tr.acer-laptop td {
+    background-color: #4e8a16;
+}
+
+.nested-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.nested-table tr {
+    border-bottom: 1px solid white;
+}
+
+.nested-table td, .nested-table th {
+    border: none;
+    padding: 0;
+    width: 100%;
+}
+
+.nested-table tr:last-child {
+    border-bottom: none;
+}
+
+.nested-table td:first-child, .nested-table td:last-child, .nested-table th:first-child, .nested-table th:last-child {
+    border-left: none;
+    border-right: none;
+}
+
+.name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.feature-card {
+    margin: 3px;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.final-price {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.feature-card-link {
+    margin: 3px;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    align-items: center; /* Center the button vertically */
+}
+
+.link-button-acer {
+    /* background-color: #ff5050; */
+    background-color: #FFA500;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.7em; /* Make the button text smaller */
+}
+
+.link-button-dell {
+    background-color: #FFA500;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.7em; /* Make the button text smaller */
+}
+
+.acer-text {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.dell-text {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.abc {
+    color: white;
+}
+.input-group .form-control {
+margin-right: 10px; /* Add space between input fields */
+}
+
+.btn-custom.search-button {
+height: 100%; /* Make the search button the same height as the input fields */
+}
+
