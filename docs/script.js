@@ -6726,8 +6726,8 @@ document.addEventListener('DOMContentLoaded', () =>
             "TB": 1024
         };
     
-        let number = parseFloat(value);
-        let unit = value.match(/[a-zA-Z]+/);
+        let number = parseFloat(value.replace(/[^0-9.-]+/g, "")); // Remove non-numeric characters
+        let unit = value.match(/[a-zA-Z]+/); // Match any units
         unit = unit ? unit[0] : "GB";
         return number * (units[unit] || 1);
     }
@@ -6737,14 +6737,14 @@ document.addEventListener('DOMContentLoaded', () =>
         if (!comparisonString) return true;
     
         const operator = comparisonString[0];
-        const number = parseValue(comparisonString.slice(1).trim());
+        const number = parseFloat(comparisonString.slice(1).trim());
     
         switch (operator) 
         {
             case "<": return value < number;
             case ">": return value > number;
             case "=": return value === number;
-            default: return value === parseValue(comparisonString.trim());
+            default: return value === parseFloat(comparisonString.trim());
         }
     }
     
@@ -6760,7 +6760,7 @@ document.addEventListener('DOMContentLoaded', () =>
         filteredLaptops = laptops.filter(laptop => 
         {
             return (inputName === "" || laptop.name.toLowerCase().includes(inputName)) &&
-                (inputPrice === "" || checkComparison(parseFloat(laptop.finalPrice), inputPrice)) &&
+                (inputPrice === "" || checkComparison(parseFloat(laptop.finalPrice.replace(/[^0-9.-]+/g, "")), inputPrice)) &&
                 (inputCPU === "" || laptop.processor.toLowerCase().includes(inputCPU)) &&
                 (inputGPU === "" || laptop.gpu.toLowerCase().includes(inputGPU)) &&
                 (inputRAM === "" || checkComparison(parseValue(laptop.ram), inputRAM)) &&
