@@ -1,0 +1,38 @@
+[
+    {
+        "brand": "Dell",
+        "link": "www.dell.com/en-ca/shop/laptops-ultrabooks/chromebook-3120/spd/chromebook-11-3120-2-in-1-laptop/s002c3120cavp?view=configurations",
+        "name": "Chromebook 3120",
+        "originalPrice": "N/A",
+        "saleType": "N/A",
+        "finalPrice": "438.99",
+        "processor": "Intel",
+        "gpu": "N/A",
+        "ram": "4 GB LPDDR5",
+        "storage": "64 GB eMMC"
+    },
+    {
+        "brand": "Dell",
+        "link": "www.dell.com/en-ca/shop/laptops-ultrabooks/chromebook-3120/spd/chromebook-11-3120-2-in-1-laptop/s004c31202n1cavp?view=configurations",
+        "name": "Chromebook 3120",
+        "originalPrice": "N/A",
+        "saleType": "N/A",
+        "finalPrice": "559.00",
+        "processor": "Intel",
+        "gpu": "N/A",
+        "ram": "4 GB LPDDR5",
+        "storage": "64 GB eMMC"
+    },
+    {
+        "brand": "Dell",
+        "link": "www.dell.com/en-ca/shop/laptops-ultrabooks/chromebook-3120/spd/chromebook-11-3120-2-in-1-laptop/s005c31202n1cavp?view=configurations",
+        "name": "Chromebook 3120",
+        "originalPrice": "N/A",
+        "saleType": "N/A",
+        "finalPrice": "619.00",
+        "processor": "Intel",
+        "gpu": "N/A",
+        "ram": "8 GB LPDDR5",
+        "storage": "64 GB eMMC"
+    }
+]
